@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Portfolio Website | Priyavrat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+      <div class="book">
+        <!-- profile page -->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <img src="./photo.jpg" alt="Priyavrat Kumar" />
+            <h1>Priyavrat Kumar</h1>
+            <h3>Full-Stack Developer</h3>
+            <div class="social-media">
+              <a href="https://github.com/priyavrat001" target="_blank"><i class="bx bxl-github"></i></a>
+              <a href="https://linkedin.com/in/priyavrat001" target="_blank"><i class="bx bxl-linkedin"></i></a>
+              <a href="mailto:priyavratsharma@gamil.com"><i class="bx bx-envelope"></i></a>
+            </div>
+            <p>
+              Hi, I am Priyavrat Kumar. I am a self-taught full-stack developer passionate about building modern web applications. I love working with React, Next.js, Node.js, TypeScript, and more. Always eager to learn and take on new challenges!
+            </p>
+            <div class="btn-box">
+              <a href="#" class="btn">Download CV</a>
+              <a href="#" class="btn contact-me">Contact Me</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- page 1 & 2 -->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- page 1 (work experience) -->
+          <div class="page-front">
+            <h1 class="title">Work Experience</h1>
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bx-calendar"></i>2024 - 2025</span>
+                <h3>Full-Stack Developer Intern - Unified Mentor</h3>
+                <p>
+                  Worked on Email View and User Dashboard projects. Built features for real-time communication, admin dashboards, and improved user experience.
+                </p>
+              </div>
+            </div>
+            <span class="number-page">1</span>
+            <span class="nextprev-btn" data-page="turn-1"><i class="bx bx-chevron-right"></i></span>
+          </div>
+
+          <!-- page 2 (education) -->
+          <div class="page-back">
+            <h1 class="title">Education</h1>
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bx-calendar"></i>2018 - 2021</span>
+                <h3>Bachelor of Arts</h3>
+                <p>Dr. Ram Manohar Lohia Awadh University</p>
+              </div>
+              <div class="workeduc-content">
+                <span class="year"><i class="bx bx-calendar"></i>Self-Taught</span>
+                <h3>Web Development</h3>
+                <p>React, Next.js, Node.js, TypeScript, JavaScript, MongoDB, GraphQL, HTML5, CSS3, Sass, Socket.io, Chart.js</p>
+              </div>
+            </div>
+            <span class="number-page">2</span>
+            <span class="nextprev-btn back" data-page="turn-1"><i class="bx bx-chevron-left"></i></span>
+          </div>
+        </div>
+
+        <!-- page 3 & 4 -->
+        <div class="book-page page-right turn" id="turn-2">
+          <!-- page 3 (my services) -->
+          <div class="page-front">
+            <h1 class="title">My Services</h1>
+            <div class="services-box">
+              <div class="services-content">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>Modern, scalable websites and web apps using React, Next.js, Node.js, and TypeScript.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+              <div class="services-content">
+                <i class="bx bxs-paint"></i>
+                <h3>Creative Design</h3>
+                <p>Modern, user-friendly UI/UX for web and mobile apps.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-bar-chart-alt"></i>
+                <h3>Digital Marketing</h3>
+                <p>Grow your business with SEO and social media.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+              <div class="services-content">
+                <i class="bx bx-search"></i>
+                <h3>SEO</h3>
+                <p>Boost your website ranking and visibility.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            <span class="number-page">3</span>
+            <span class="nextprev-btn" data-page="turn-2"><i class="bx bx-chevron-right"></i></span>
+          </div>
+
+          <!-- page 4 (my skills) -->
+          <div class="page-back">
+            <h1 class="title">My Skills</h1>
+            <div class="skills-box">
+              <div class="skills-content">
+                <h3>Front-End</h3>
+                <div class="content">
+                  <span><i class="bx bxl-html5"></i>HTML5</span>
+                  <span><i class="bx bxl-css3"></i>CSS3</span>
+                  <span><i class="bx bxl-javascript"></i>JavaScript</span>
+                  <span><i class="bx bxl-react"></i>React</span>
+                  <span><i class="bx bxs-terminal"></i>Next.js</span>
+                  <span><i class="bx bxl-typescript"></i>TypeScript</span>
+                  <span><i class="bx bxl-sass"></i>Sass</span>
+                  <span><i class="bx bxl-github"></i>GitHub</span>
+                </div>
+              </div>
+              <div class="skills-content">
+                <h3>Back-End</h3>
+                <div class="content">
+                  <span><i class="bx bxl-nodejs"></i>Node.js</span>
+                  <span><i class="bx bx-terminal"></i>Express</span>
+                  <span><i class="bx bx-data"></i>MongoDB</span>
+                  <span><i class="bx bx-graph"></i>GraphQL</span>
+                  <span><i class="bx bxl-python"></i>Socket.io</span>
+                  <span><i class="bx bx-bar-chart"></i>Chart.js</span>
+                </div>
+              </div>
+            </div>
+            <span class="number-page">4</span>
+            <span class="nextprev-btn back" data-page="turn-2"><i class="bx bx-chevron-left"></i></span>
+          </div>
+        </div>
+        <!-- page 5 & 6 -->
+        <div class="book-page page-right turn" id="turn-3">
+          <!-- page 5 (latest project or my portfolio) -->
+          <div class="page-front">
+            <h1 class="title">Latest Projects</h1>
+            <div class="portfolio-box">
+              <div class="img-box">
+                <img src="./portfolio.jpg" alt="Dashboard UI" />
+              </div>
+              <div class="info-box">
+                <div class="info-title">
+                  <h3>App Dashboard</h3>
+                  <a href="https://app-dashboard-ivory.vercel.app/" target="_blank">Live Preview<i class="bx bx-link-external"></i></a>
+                </div>
+                <p>In this project I built an app dashboard UI using TypeScript and React.</p>
+                <a style="margin-top: 1rem;" href="https://github.com/Priyavrat001/App-Dashboard" class="btn" target="_blank">Source Code</a>
+              </div>
+            </div>
+            <span class="number-page">5</span>
+            <span class="nextprev-btn" data-page="turn-3"><i class="bx bx-chevron-right"></i></span>
+          </div>
+          <!-- page 6 (contact me) -->
+          <div class="page-back">
+            <h1 class="title">Contact Me!</h1>
+            <div class="contact-box">
+              <form action="mailto:priyavratsharma@gamil.com" method="POST" enctype="text/plain">
+                <input type="text" class="field" placeholder="Full Name" required />
+                <input type="email" class="field" placeholder="Email Address" required />
+                <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                <input type="submit" class="btn" value="Send Message" />
+              </form>
+            </div>
+            <span class="number-page">6</span>
+            <span class="nextprev-btn back" data-page="turn-3"><i class="bx bx-chevron-left"></i></span>
+            <a href="#" class="back-profile">
+              <p>Profile</p>
+              <i class="bx bxs-user"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- what I used : HTML, CSS, JS, Boxicons,  -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
