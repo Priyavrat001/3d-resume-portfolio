@@ -2,6 +2,11 @@
 
 A visually appealing, fully responsive 3D portfolio website for Priyavrat Kumar, built using only HTML, CSS, and JavaScript (no frameworks).
 
+
+## Live Demo
+
+[View the live portfolio here](https://jade-dragon-4407f4.netlify.app/)
+
 ## Approach
 
 1. **Design & Layout**
